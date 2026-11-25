@@ -1,0 +1,18 @@
+{
+  "name": "@raihanprnwd/cat-shield",
+  "version": "1.0.0",
+  "description": "Modular, privacy-aware client-side integrity guard for Computer Assisted Test (CAT) platforms.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/guard.test.js"
+  },
+  "keywords": ["cat", "exam", "anti-cheat", "integrity"],
+  "author": "Raihanprnwd",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
